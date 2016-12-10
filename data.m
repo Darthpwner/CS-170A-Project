@@ -47,26 +47,53 @@ under_pressure_stats_hard_transpose = transpose(under_pressure_hard);
 % Most important metrics
 % (1) % service games won
 percentage_of_service_games_won_all = serve_stats_all_transpose(4, :);
-percentage_of_service_games_won_clay = serve_stats_clay_transpose(4, :);
-percentage_of_service_games_won_grass = serve_stats_grass_transpose(4, :);
-percentage_of_service_games_won_hard = serve_stats_hard_transpose(4, :);
+percentage_of_service_games_won_all_transpose = transpose(percentage_of_service_games_won_all);
 
+percentage_of_service_games_won_clay = serve_stats_clay_transpose(4, :);
+percentage_of_service_games_won_clay_transpose = transpose(percentage_of_service_games_won_clay);
+
+percentage_of_service_games_won_grass = serve_stats_grass_transpose(4, :);
+percentage_of_service_games_won_grass_transpose = transpose(percentage_of_service_games_won_grass);
+
+percentage_of_service_games_won_hard = serve_stats_hard_transpose(4, :);
+percentage_of_service_games_won_hard_transpose = transpose(percentage_of_service_games_won_hard);
 
 % (2) % return games won
 percentage_of_return_games_won_all = return_stats_all_transpose(3, :);
+percentage_of_return_games_won_all_transpose = transpose(percentage_of_return_games_won_all);
+
 percentage_of_return_games_won_clay = return_stats_clay_transpose(3, :);
+percentage_of_return_games_won_clay_transpose = transpose(percentage_of_return_games_won_clay);
+
 percentage_of_return_games_won_grass = return_stats_grass_transpose(3, :);
+percentage_of_return_games_won_grass_transpose = transpose(percentage_of_return_games_won_grass);
+
 percentage_of_return_games_won_hard = return_stats_hard_transpose(3, :);
+percentage_of_return_games_won_hard_transpose = transpose(percentage_of_return_games_won_hard);
 
 % (3) % of tiebreaks won
 percentage_of_tiebreaks_won_all = under_pressure_stats_all_transpose(3, :);
-percentage_of_tiebreaks_won_clay = under_pressure_stats_all_transpose(3, :);
-percentage_of_tiebreaks_won_grass = under_pressure_stats_all_transpose(3, :);
-percentage_of_tiebreaks_won_hard = under_pressure_stats_all_transpose(3, :);
+percentage_of_tiebreaks_won_all_transpose = transpose(percentage_of_tiebreaks_won_all);
+
+percentage_of_tiebreaks_won_clay = under_pressure_stats_clay_transpose(3, :);
+percentage_of_tiebreaks_won_clay_transpose = transpose(percentage_of_tiebreaks_won_clay);
+
+percentage_of_tiebreaks_won_grass = under_pressure_stats_grass_transpose(3, :);
+percentage_of_tiebreaks_won_grass_transpose = transpose(percentage_of_tiebreaks_won_grass);
+
+percentage_of_tiebreaks_won_hard = under_pressure_stats_hard_transpose(3, :);
+percentage_of_tiebreaks_won_hard_transpose = transpose(percentage_of_tiebreaks_won_hard);
 
 % (4) % of deciding sets won
 percentage_of_deciding_sets_won_all = under_pressure_stats_all_transpose(4, :);
-percentage_of_deciding_sets_won_clay = under_pressure_stats_all_transpose(4, :);
-percentage_of_deciding_sets_won_grass = under_pressure_stats_all_transpose(4, :);
-percentage_of_deciding_sets_won_hard = under_pressure_stats_all_transpose(4, :);
+percentage_of_deciding_sets_won_all_transpose = transpose(percentage_of_deciding_sets_won_all);
+
+percentage_of_deciding_sets_won_clay = under_pressure_stats_clay_transpose(4, :);
+percentage_of_deciding_sets_won_clay_transpose = transpose(percentage_of_deciding_sets_won_clay);
+
+percentage_of_deciding_sets_won_grass = under_pressure_stats_grass_transpose(4, :);
+percentage_of_deciding_sets_won_grass_transpose = transpose(percentage_of_deciding_sets_won_grass);
+
+percentage_of_deciding_sets_won_hard = under_pressure_stats_hard_transpose(4, :);
+percentage_of_deciding_sets_won_hard_transpose = transpose(percentage_of_deciding_sets_won_hard);
 
