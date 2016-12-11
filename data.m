@@ -97,3 +97,57 @@ percentage_of_deciding_sets_won_grass_transpose = transpose(percentage_of_decidi
 percentage_of_deciding_sets_won_hard = under_pressure_stats_hard_transpose(4, :);
 percentage_of_deciding_sets_won_hard_transpose = transpose(percentage_of_deciding_sets_won_hard);
 
+% Player stats
+
+% Retired Players
+% Becker stats
+becker_grass = [percentage_of_service_games_won_grass(1, 1), percentage_of_return_games_won_grass(1, 1), percentage_of_tiebreaks_won_grass(1, 1), percentage_of_deciding_sets_won_grass(1, 1)];
+
+% Edberg stats
+edberg_grass = [percentage_of_service_games_won_grass(1, 2), percentage_of_return_games_won_grass(1, 2), percentage_of_tiebreaks_won_grass(1, 2), percentage_of_deciding_sets_won_grass(1, 2)];
+
+% Courier stats
+courier_clay = [percentage_of_service_games_won_clay(1, 3), percentage_of_return_games_won_clay(1, 3), percentage_of_tiebreaks_won_clay(1, 3), percentage_of_deciding_sets_won_clay(1, 3)];
+
+% Sampras stats
+sampras_grass = [percentage_of_service_games_won_grass(1, 4), percentage_of_return_games_won_grass(1, 4), percentage_of_tiebreaks_won_grass(1, 4), percentage_of_deciding_sets_won_grass(1, 4)];
+sampras_hard = [percentage_of_service_games_won_hard(1, 4), percentage_of_return_games_won_hard(1, 4), percentage_of_tiebreaks_won_hard(1, 4), percentage_of_deciding_sets_won_hard(1, 4)];
+
+% Agassi stats
+agassi_hard = [percentage_of_service_games_won_hard(1, 5), percentage_of_return_games_won_hard(1, 5), percentage_of_tiebreaks_won_hard(1, 5), percentage_of_deciding_sets_won_hard(1, 5)];
+
+% Muster stats
+muster_clay = [percentage_of_service_games_won_clay(1, 6), percentage_of_return_games_won_clay(1, 6), percentage_of_tiebreaks_won_clay(1, 6), percentage_of_deciding_sets_won_clay(1, 6)];
+
+% Safin stats
+safin_hard = [percentage_of_service_games_won_hard(1, 11), percentage_of_return_games_won_hard(1, 11), percentage_of_tiebreaks_won_hard(1, 11), percentage_of_deciding_sets_won_hard(1, 11)];
+
+% Kuerten stats
+kuerten_clay = [percentage_of_service_games_won_clay(1, 12), percentage_of_return_games_won_clay(1, 12), percentage_of_tiebreaks_won_clay(1, 12), percentage_of_deciding_sets_won_clay(1, 12)];
+%
+
+% Active Players
+% Federer stats
+federer_all = [percentage_of_service_games_won_all(1, 16), percentage_of_return_games_won_all(1, 16), percentage_of_tiebreaks_won_all(1, 16), percentage_of_deciding_sets_won_all(1, 16)];
+federer_clay = [percentage_of_service_games_won_clay(1, 16), percentage_of_return_games_won_clay(1, 16), percentage_of_tiebreaks_won_clay(1, 16), percentage_of_deciding_sets_won_clay(1, 16)];
+federer_grass = [percentage_of_service_games_won_grass(1, 16), percentage_of_return_games_won_grass(1, 16), percentage_of_tiebreaks_won_grass(1, 16), percentage_of_deciding_sets_won_grass(1, 16)];
+federer_hard = [percentage_of_service_games_won_hard(1, 16), percentage_of_return_games_won_hard(1, 16), percentage_of_tiebreaks_won_hard(1, 16), percentage_of_deciding_sets_won_hard(1, 16)];
+
+% Nadal stats
+nadal_all = [percentage_of_service_games_won_all(1, 17), percentage_of_return_games_won_all(1, 17), percentage_of_tiebreaks_won_all(1, 17), percentage_of_deciding_sets_won_all(1, 17)];
+nadal_clay = [percentage_of_service_games_won_clay(1, 17), percentage_of_return_games_won_clay(1, 17), percentage_of_tiebreaks_won_clay(1, 17), percentage_of_deciding_sets_won_clay(1, 17)];
+nadal_grass = [percentage_of_service_games_won_grass(1, 17), percentage_of_return_games_won_grass(1, 17), percentage_of_tiebreaks_won_grass(1, 17), percentage_of_deciding_sets_won_grass(1, 17)];
+nadal_hard = [percentage_of_service_games_won_hard(1, 17), percentage_of_return_games_won_hard(1, 17), percentage_of_tiebreaks_won_hard(1, 17), percentage_of_deciding_sets_won_hard(1, 17)];
+
+% Djokovic stats
+djokovic_all = [percentage_of_service_games_won_all(1, 18), percentage_of_return_games_won_all(1, 18), percentage_of_tiebreaks_won_all(1, 18), percentage_of_deciding_sets_won_all(1, 18)];
+djokovic_clay = [percentage_of_service_games_won_clay(1, 18), percentage_of_return_games_won_clay(1, 18), percentage_of_tiebreaks_won_clay(1, 18), percentage_of_deciding_sets_won_clay(1, 18)];
+djokovic_grass = [percentage_of_service_games_won_grass(1, 18), percentage_of_return_games_won_grass(1, 18), percentage_of_tiebreaks_won_grass(1, 18), percentage_of_deciding_sets_won_grass(1, 18)];
+djokovic_hard = [percentage_of_service_games_won_hard(1, 18), percentage_of_return_games_won_hard(1, 18), percentage_of_tiebreaks_won_hard(1, 18), percentage_of_deciding_sets_won_hard(1, 18)];
+
+% Murray stats
+murray_all = [percentage_of_service_games_won_all(1, 19), percentage_of_return_games_won_all(1, 19), percentage_of_tiebreaks_won_all(1, 19), percentage_of_deciding_sets_won_all(1, 19)];
+murray_clay = [percentage_of_service_games_won_clay(1, 19), percentage_of_return_games_won_clay(1, 19), percentage_of_tiebreaks_won_clay(1, 19), percentage_of_deciding_sets_won_clay(1, 19)];
+murray_grass = [percentage_of_service_games_won_grass(1, 19), percentage_of_return_games_won_grass(1, 19), percentage_of_tiebreaks_won_grass(1, 19), percentage_of_deciding_sets_won_grass(1, 19)];
+murray_hard = [percentage_of_service_games_won_hard(1, 19), percentage_of_return_games_won_hard(1, 19), percentage_of_tiebreaks_won_hard(1, 19), percentage_of_deciding_sets_won_hard(1, 19)];
+%
